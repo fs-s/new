@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="style.css" media="all">
+	<title>AC/DC</title>
+	<script>
+	function togglemenu(){
+		var height = links.style.height;
+		if(height == "0px"){
+			links.style.height = "70%";
+		} else {
+			links.style.height = "0px";
+		}
+	}
+	</script>
+	<style>
+			@import url('https://fonts.googleapis.com/css?family=Neuton&display=swap');
+			</style>
+</head>
+<body>
+	<nav>
+		<div class=navLimiter>
+			<img class=logo src="./img/logo.png" alt="">
+			<button id="navBtn" onclick="togglemenu()">&#9776;</button>
+			<div id="links">
+				<a href="#about">Tutvustus</a>
+				<a href="#members">Bändist</a>
+				<a href="#albums">Albumid</a>
+			</div>
+		</div>
+	</nav>
+
+	<main id="about">
+		<div class="divider"></div>
+		<div class="limiter">
+			<div class="filler" style="background-color: unset;"><div style="margin-top:300px;"><div class="transbox">AC/DC on Austraalia päritolu rock&rolli bänd, mis loodi Sydneys 1973. aastal. Asutajad on vennad Malcolm ja Angus Young. </div></div></div>
+			<div class=picc></div>
+		</div>
+	
+	</main>
+
+	<main id="members">
+		<div class="divider"></div>
+		<div class="limiter">
+			<div class="filler" style="background-color: unset;">
+				<div class="wrap">
+				<h1>flexbox image gallery</h1>
+				<main class="cards">
+					<img src="/img/Angus Young Picture.png" alt="Angus Young">
+					<img src="/img/Chris Slade Picture.png" alt="Chris Slade"
+					<img src="/img/black.png" alt="Axl Rose">
+					<img src="/img/Stevie Young Picture.png" alt="Stevie Young">
+				</main>
+				</div>
+				
+			</div>
+	</main>
+
+
+	<main id="albums">
+		<div class="divider"></div>
+		<div class="limiter">
+			<div class="filler"></div>
+		</div>
+	</main>
+	<div class="divider"></div>
+	
+</body>
+</html>
