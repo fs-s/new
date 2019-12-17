@@ -1,12 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="style.css" media="all">
+	<title>AC/DC</title>
+	<script>
+	function togglemenu(){
+		var height = links.style.height;
+		if(height == "0px"){
+			links.style.height = "70%";
+		} else {
+			links.style.height = "0px";
+		}
+	}
+	</script>
+	<style>
+			@import url('https://fonts.googleapis.com/css?family=Neuton&display=swap');
+			</style>
 </head>
 <body>
-    <h1>Yellow my frendgdfo</h1>
+	<nav>
+		<div class=navLimiter>
+			<img class=logo src="./img/logo.png" alt="">
+			<button id="navBtn" onclick="togglemenu()">&#9776;</button>
+			<div id="links">
+				<a href="#about">Tutvustus</a>
+				<a href="#members">Bändist</a>
+				<a href="#albums">Albumid</a>
+			</div>
+		</div>
+	</nav>
+
+	<main id="about">
+		<div class="divider"></div>
+		<div class="limiter">
+			<div class="filler" style="background-color: unset;"><div style="margin-top:300px;"><div class="transbox">AC/DC on Austraalia päritolu rock&rolli bänd, mis loodi Sydneys 1973. aastal. Asutajad on vennad Malcolm ja Angus Young. </div></div></div>
+			<div class=picc></div>
+		</div>
+	
+	</main>
+
+	<main id="members">
+		<div class="divider"></div>
+		<div class="limiter">
+			<div class="filler"></div>
+		</div>
+	</main>
+
+
+	<main id="albums">
+		<div class="divider"></div>
+		<div class="limiter">
+			<div class="filler"></div>
+		</div>
+	</main>
+	<div class="divider"></div>
+	
 </body>
 </html>
