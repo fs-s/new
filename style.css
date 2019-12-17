@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=MedievalSharp&display=swap');
+
+html {
+	font-family: 'MedievalSharp', cursive;
+	scroll-behavior: smooth;
+	height: 100%;
+}
+
+body {
+	height: 100%;
+	margin: 0;
+}
+
+nav {
+	background-color: #000;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+.navLimiter {
+	padding: 10px 0;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	max-width: 1440px;
+	margin: auto;
+}
+
+
+.limiter {
+	max-width: 1440px;
+	margin: auto;
+}
+
+a {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	color: white;
+	text-decoration: none;
+	padding: 10px 20px;
+}
+
+#links {
+	display: flex;
+	justify-content: space-around;
+	font-size: 38px;
+	align-content: center;
+	width: 800px;
+	flex-wrap: wrap;
+}
+
+#navBtn {
+	display: none;
+	border: none;
+	background-color: rgba(0,0,0,1);
+	font-size: 70px;
+	display: flex;
+	align-content: center;
+	outline: none;
+
+}
+
+@media only screen and (max-width: 1000px) {
+	#links {
+		height: 0;
+		overflow: hidden;
+		width: 100%;
+	}
+	#navBtn {
+		display: flex;
+	}
+}
+
+
+.logo {
+	max-height: 80px;
+	height: 100%;
+}
+
+.filler {
+	height: 1000px;
+	background-color: green;
+}
+
+.divider {
+	height: 100px;
+	background-color: red;
+	background-image: url("./img/divider.png");
+	
+}
+
+#about {
+	background-image: url("./img/background.jpg");
+	background-position: center;
+	background-size: cover;
+
+}
+div.transbox {
+	font-family: 'Neuton', serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 38px;
+	line-height: 48px;
+	padding-left:200px;
+	color:#D8B990;
+	background-color:rgba(0,0,0,0.8);
+	border: 1px solid black;
+	width: 1128px;
+	height: 189px;
+	left: 0px;
+	top: 450px;
+	position:absolute;
+
+}
+
+div.transbox p {
+	margin: 5%;
+	font-weight: bold;
+	color:black;
+}
